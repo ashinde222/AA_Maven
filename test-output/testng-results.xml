@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[verify user id ]]>
+    </line>
+    <line>
+      <![CDATA[Log Out the Application]]>
+    </line>
+    <line>
+      <![CDATA[tc pass]]>
+    </line>
+    <line>
+      <![CDATA[Log Out the Application]]>
+    </line>
+    <line>
+      <![CDATA[Sample tc fail ]]>
+    </line>
+    <line>
+      <![CDATA[Log Out the Application]]>
+    </line>
+    <line>
+      <![CDATA[Log Out the Application]]>
+    </line>
+    <line>
+      <![CDATA[closing the browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-07-30T22:55:11 IST" name="Default suite" finished-at="2021-07-30T22:55:51 IST" duration-ms="39578">
+    <groups>
+    </groups>
+    <test started-at="2021-07-30T22:55:11 IST" name="Default test" finished-at="2021-07-30T22:55:51 IST" duration-ms="39578">
+      <class name="TestClass.kite_Test">
+        <test-method is-config="true" signature="Open_Browser()[pri:0, instance:TestClass.kite_Test@6392827e]" started-at="2021-07-30T22:55:12 IST" name="Open_Browser" finished-at="2021-07-30T22:55:19 IST" duration-ms="7301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Browser -->
+        <test-method is-config="true" signature="Login_Application()[pri:0, instance:TestClass.kite_Test@6392827e]" started-at="2021-07-30T22:55:19 IST" name="Login_Application" finished-at="2021-07-30T22:55:22 IST" duration-ms="2777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Application -->
+        <test-method signature="TC1_Verify_UserID()[pri:0, instance:TestClass.kite_Test@6392827e]" started-at="2021-07-30T22:55:22 IST" name="TC1_Verify_UserID" finished-at="2021-07-30T22:55:24 IST" duration-ms="2766" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[verify user id ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC1_Verify_UserID -->
+        <test-method is-config="true" signature="LogOut_Application()[pri:0, instance:TestClass.kite_Test@6392827e]" started-at="2021-07-30T22:55:24 IST" name="LogOut_Application" finished-at="2021-07-30T22:55:28 IST" duration-ms="3435" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Log Out the Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogOut_Application -->
+        <test-method is-config="true" signature="Login_Application()[pri:0, instance:TestClass.kite_Test@6392827e]" started-at="2021-07-30T22:55:28 IST" name="Login_Application" finished-at="2021-07-30T22:55:30 IST" duration-ms="2572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Application -->
+        <test-method signature="TC2_Verify_UsernameofHomepage()[pri:0, instance:TestClass.kite_Test@6392827e]" started-at="2021-07-30T22:55:30 IST" name="TC2_Verify_UsernameofHomepage" finished-at="2021-07-30T22:55:33 IST" duration-ms="2279" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC2_Verify_UsernameofHomepage -->
+        <test-method is-config="true" signature="LogOut_Application()[pri:0, instance:TestClass.kite_Test@6392827e]" started-at="2021-07-30T22:55:33 IST" name="LogOut_Application" finished-at="2021-07-30T22:55:36 IST" duration-ms="3150" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Log Out the Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogOut_Application -->
+        <test-method is-config="true" signature="Login_Application()[pri:0, instance:TestClass.kite_Test@6392827e]" started-at="2021-07-30T22:55:36 IST" name="Login_Application" finished-at="2021-07-30T22:55:38 IST" duration-ms="2482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Application -->
+        <test-method signature="TC3_W()[pri:0, instance:TestClass.kite_Test@6392827e]" started-at="2021-07-30T22:55:38 IST" name="TC3_W" finished-at="2021-07-30T22:55:40 IST" duration-ms="1668" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sample tc fail ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC3_W -->
+        <test-method is-config="true" signature="LogOut_Application()[pri:0, instance:TestClass.kite_Test@6392827e]" started-at="2021-07-30T22:55:40 IST" name="LogOut_Application" finished-at="2021-07-30T22:55:43 IST" duration-ms="3052" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Log Out the Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogOut_Application -->
+        <test-method is-config="true" signature="Login_Application()[pri:0, instance:TestClass.kite_Test@6392827e]" started-at="2021-07-30T22:55:43 IST" name="Login_Application" finished-at="2021-07-30T22:55:46 IST" duration-ms="2480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Application -->
+        <test-method signature="TC4_W()[pri:0, instance:TestClass.kite_Test@6392827e]" started-at="2021-07-30T22:55:46 IST" name="TC4_W" finished-at="2021-07-30T22:55:46 IST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at TestClass.kite_Test.TC4_W(kite_Test.java:99)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4_W -->
+        <test-method is-config="true" signature="LogOut_Application()[pri:0, instance:TestClass.kite_Test@6392827e]" started-at="2021-07-30T22:55:46 IST" name="LogOut_Application" finished-at="2021-07-30T22:55:49 IST" duration-ms="3447" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Log Out the Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogOut_Application -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:TestClass.kite_Test@6392827e]" started-at="2021-07-30T22:55:49 IST" name="Close_Browser" finished-at="2021-07-30T22:55:51 IST" duration-ms="2021" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- TestClass.kite_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
